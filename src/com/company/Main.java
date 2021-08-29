@@ -3,6 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        System.out.println("This is Beknazar's project");
+        System.out.println(revStr("Hello World"));
+    }
+
+    public static String revStr(String str) {
+        return new StringBuilder(str).reverse().toString();
     }
 }
